@@ -1,8 +1,8 @@
 package gor
 
 type Status struct {
-	Code  int
-	Label string
+	Code  int    `json:"code"`
+	Label string `json:"label"`
 }
 
 var (
